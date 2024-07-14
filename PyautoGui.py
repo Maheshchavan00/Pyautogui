@@ -42,18 +42,6 @@ pyautogui.moveTo(800,400,3)
 pyautogui.mouseUp()
 pyautogui.moveTo(1000,400,3)
 
-##spiral drawing using the pyautogui
-
-time.sleep(1)
-distance = 300
-while distance > 0:
-    pyautogui.dragRel(distance,0,1,button="left")
-    pyautogui = distance -20
-    pyautogui.dragRel(0,distance,1,button="left")
-    pyautogui.dragRel(-distance, 0, 1, button="left")
-    pyautogui = distance -20
-    pyautogui.dragRel(0, -distance, 1, button="left")
-time.sleep(2)
 
 
 
